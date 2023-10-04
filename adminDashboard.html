@@ -6,12 +6,177 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard Project</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="adminDashboardStyle.css">
 </head>
 
 <body>
- 
+    <div class="entireSite">
+        <div class="sidebar">
+            <div class="dashHead"><img src="dashboard.svg" alt="dashboard">Dashboard</div>
+            <div class="topDash">
+                <ul>
+                    <li><img src="home.svg" alt="home">Home</li>
+                    <li><img src="profile.svg" alt="profile">Profile</li>
+                    <li><img src="message.svg" alt="messages">Messages</li>
+                    <li> <img src="history.svg" alt="history">History</li>
+                    <li><img src="task.svg" alt="tasks">Tasks</li>
+                    <li><img src="communities.svg" alt="communities">Communities</li>
+                </ul>
+            </div>
+            <div class="bottomDash">
+                <ul>
+                    <li><img src="settings.svg" alt="settings">Settings</li>
+                    <li><img src="support.svg" alt="support">Support</li>
+                    <li><img src="privacy.svg" alt="privacy">Privacy</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="header">
+            <div class="search"><img src="search.svg">
+
+                <input type="text" id="search" name="search" placeholder="Search" />
+            </div>
+            <div class="currentUser"><img class="bell" src="bell.svg"><img class="userEl"
+                src="elephant.svg">
+                <div class="user">Tony Baloney</div>
+            </div>
+            <div class="welcome">
+                <img src="elephant.svg">
+                <div class="greet">Hi there,</div>
+                <div class="name">Tony Baloney (@tony)</div>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+
+        <div class="mainContent">
+            <div class="projectCards">
+                <div class="projects">Your Projects</div>
+                <div class="card">
+                    <div class="cardTitle">Super Cool Project</div>
+                    <div class="cardContent">Sed tempus ut lactus ut scelerisque.
+                        Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardTitle">Less Cool Project</div>
+                    <div class="cardContent">Nullam condimentum ipsum ut lectus vehicula consectetur.
+                        Quisque sed dolor tincidunt, consectetus sapien et facilisis dolor. Duis sem
+                        purus, dignissim ut sapien in, varius pellentesque lacus.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="cardTitle">Impossible App</div>
+                    <div class="cardContent">In Hac habitasse platea dictumst. Vivamus dictum
+                        rutrum arcu, a placerat velit sagittis id.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="cardTitle">Easy Peasy App</div>
+                    <div class="cardContent">Etiam cursus eros ac efficitur fringilla. Vestibulum
+                        dignissim urna eget acumsan aliquam. Curabitur dignissim nisi in tortor
+                        commodo, ac bibendum magana tincidunt.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="cardTitle">Ad Blocker</div>
+                    <div class="cardContent">Quisque eget rutrum nisl. Nam augue justo, cursus
+                        vitae metus vel, pharetra hendrerit felix. Aliquam sed malesuada eros.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="cardTitle">Money Maker</div>
+                    <div class="cardContent">Praesent convalis, livero quis congue elementum,
+                        nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                        Pellentesque mollis nex sem vel aliquam.
+                    </div>
+                    <div class="cardFooter"><img src="star.svg" alt="star">
+                        <img src="eye.svg" alt="watch"><img src="share.svg" alt="share">
+                    </div>
+                </div>
+
+            </div>
+            <div class="otherCards">
+                <div class="annContainer">
+                    <div class="announceTitle">Announcements</div>
+                    <div class="announcementCard">
+                        <div class="singleAnn">
+                            <div class="cardTitleSmall">Site Maintenance</div>
+                            <div class="cardContentSmall">Vestibulum condimentum tellus lacus,
+                                in accumsan elit maximus ac. Donex hendrerit sodales congue...
+                            </div>
+                        </div>
+                        <div class="singleAnn">
+                            <div class="cardTitleSmall">Community Share Day</div>
+                            <div class="cardContentSmall">Nam vel lectus tincidunt, rutrum nulla eu, ornare
+                                libero. Aliquam dictum accumsan porttitor...
+                            </div>
+                        </div>
+                        <div class="singleAnn">
+                            <div class="cardTitleSmall">Updated Privacy Policy</div>
+                            <div class="cardContentSmall">Phasellus efficitur nisi eget elit consectetur,
+                                eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trendContainer">
+                    <div class="trendTitle">Trending</div>
+                    <div class="trendingCard">
+
+                        <div class="peeps">
+                            <div class="icon"><img src="dog.svg" alt="dog"></div>
+                            <div class="account"> @tegan </div>
+                            <div class="caption">World Peace Builder</div>
+                        </div>
+                        <div class="peeps">
+                            <div class="icon"><img src="cat.svg" alt="cat"></div>
+                            <div class="account"> @morgan </div>
+                            <div class="caption">Cool Project Builder</div>
+                        </div>
+                        <div class="peeps">
+                            <div class="icon"><img src="spider.svg" alt="spider"></div>
+                            <div class="account"> @kendall </div>
+                            <div class="caption">Life Changing App</div>
+                        </div>
+                        <div class="peeps">
+                            <div class="icon"><img src="penguin.svg" alt="penguin"></div>
+                            <div class="account"> @alex </div>
+                            <div class="caption">No Traffic Maker</div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
